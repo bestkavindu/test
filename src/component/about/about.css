@@ -47,3 +47,72 @@
     font-weight: 300;
     
 }
+@media screen and (max-width:1110px) {
+    .a{
+        height: 80vh;
+    }
+    .a-card{
+        height: 50vh;
+    }
+    .a-card.bg{
+        top: 110px;
+    }
+    .a-img{
+        height: 100%;
+    }
+    .a-title{
+        font-weight: 500;
+    }
+    .a-sub{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .a-desc{
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width:675px) {
+    .a-card.bg{
+        top: 60px;
+    }
+    .a-title{
+        font-weight: 500;
+    }
+    .a-sub{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .a-desc{
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width:480px) {
+
+    .a{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .a-card.bg{
+        top: 0px;
+    }
+    .a-title{
+        text-align: center;
+        justify-content: center;
+        font-weight: 500;
+    }
+    .a-sub{
+        font-weight: 500;
+        font-size: 14px;
+        margin: 0 20px;
+    }
+    .a-desc{
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 20px;
+    }
+
+    
+}
